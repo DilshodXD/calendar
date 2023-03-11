@@ -1,7 +1,10 @@
+import Navbar from "./navbar/navbar";
+import "./app.scss";
+
 function App() {
   return (
-    <div>
-
+    <div className="root">
+        <Navbar />
     </div>
   );
 }
