@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  font-weight: 700;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  font-weight: 400;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+.home {
+  min-height: 100vh;
+  background-color: #2a628f;
+  &-inner {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+  }
+}
+
+.content {
+  padding: 10px;
+  border-radius: 15px;
+  &-img {
+    border-radius: 15px;
+    width: 295px;
+    height: 295px;
+  }
+  &-user {
+    padding: 0 10px;
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+  }
+  &-comment{
+    padding: 0 10px;
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+  }
+}

@@ -4,7 +4,7 @@ import Messages from "../message/messages";
 import Profile from "../profile/profile";
 import "./navbar.scss";
 
-function Navbar() {
+function Navbar(): JSX.Element {
   return (
     <>
       <header className="header">
